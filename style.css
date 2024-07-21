@@ -1,0 +1,149 @@
+*{
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+    margin: 0;
+}
+
+.limits{
+    width: 800px;
+    height: 600px;
+    margin: auto;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: purple;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin: 0 auto;
+    overflow: hidden; 
+    position: relative;
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    height: 100vh;
+}
+
+.background{
+    width: 100%;
+    height: 100%;
+    background-image: url('./assets/LVL1.png');
+}
+
+
+body{
+    display: flex;
+    align-items: center;
+}
+.fora{
+    display: none;
+}
+.sla{
+    display: none;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border: 2px solid;
+    border-radius: 8px;
+    border-radius: 10px;
+}
+
+.sla img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.img_btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    background-color: rgb(144, 88, 207);
+    width: 22vw;
+    height: 70vh;
+    border-radius: 20px;
+}
+
+.cell_row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 55px;
+    width: 110vw;
+}
+
+#cells_main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 55px;
+    background-color: purple;
+}
+
+.carousel-item img{
+    width: 300px;
+}
+
+.img_btn p{
+    font-size: 35px;
+}
+
+a{
+    text-decoration: none;
+}
+
+#Character{
+    display: none;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    background-position: bottom;
+    background-image: url('./assets/cancer_parado.gif');
+    background-size: cover;
+    bottom: 0;
+}
+
+.Enemy1{
+    display: none;
+    width: 85px;
+    height: 85px;
+    position: absolute;
+    bottom: 0;
+    background-image: url('./assets/neuronio-game.png');
+    background-size: cover;
+
+}
+
+#floor{
+   display: none;
+   bottom: 0; 
+   width: 100%;
+   height: 10px;
+   position: absolute;
+   background-image: url('./assets/pixil-frame-0.png');
+    right: 0;
+}
+
+#Attack{
+    display: none;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    bottom: 0;
+    background-image: url('./assets/attack.gif');
+    background-size: cover;
+}
